@@ -3,9 +3,9 @@ title: "ASSIGNMENT 4"
 author: "Sarah Qiang"
 date: '2022-4-24'
 output:
-  html_document: default
-  word_document: default
   pdf_document: default
+  word_document: default
+  html_document: default
   bibliography: bibliography.bib
 ---
 
@@ -46,6 +46,7 @@ author = {{Andy Filed, Jeremy Miles, Zoe Field}},
 }
 # Inline Code
 ```{r include =false}
+
 library(ggplot2)
 theme_set(theme_minimal())
 heights_df <- read.csv("/Users/sarah/documents/hello_world/data/r4ds/heights.csv")
