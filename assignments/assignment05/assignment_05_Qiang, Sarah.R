@@ -23,3 +23,4 @@ cor(heights_df$ed,heights_df$earn, method = "pearson")
 tech_spending <- c(18079, 18594, 19753, 20734, 20831, 23029, 23597, 23584, 25525, 27731, 29449)
 suicides <- c(5427, 5688, 6198, 6462, 6635, 7336, 7248, 7491, 8161, 8578, 9000)
 cor(tech_spending,suicides,method = "pearson")
+
