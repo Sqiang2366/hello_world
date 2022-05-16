@@ -31,7 +31,7 @@ cov(happiness, tv)
 #A single correlation between two a pair of the variables
 cor(happiness, tv, method = "pearson")
 #Repeat your correlation test in step 2 but set the confidence interval at 99%
-cor(happiness, tv, method = "pearson",level =0.99)
+cor.test(happiness, tv, method = "pearson",level =0.99)
 #Describe what the calculations in the correlation matrix suggest about the relationship between the variables. Be specific with your explanation.
 # The correlation coefficient of happiness and TV is 0.636556 Since it is rather close to 1, we can conclude that the variables are positively linearly related.
 

@@ -7,8 +7,8 @@
 
 #setup, prepare the file
 library (readxl)
-setwd("/Users/sarah/hello_world/data")
-house.data <- read_xlsx("/Users/sarah/hello_world/data/week-7-housing.xlsx")
+setwd("/Users/sarah/documents/hello_world")
+house.data <- read_xlsx("/Users/sarah/documents/hello_world/data/week-7-housing.xlsx")
 house.data <-house.data[c(1:50), ]
 
 #Using the dplyr package, use the 6 different operations to analyze/transform the data 
